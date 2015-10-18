@@ -5,11 +5,16 @@
  R4wk, ZeuX, IngisKahn, bspkrs
  MCP Data version : unknown
 ****************************
-:eclipseClasspath
-:eclipseJdt
-:eclipseProject
-:eclipse
+:ideaModule
+Download http://shadow.gcod.net/maven/com/teammetallurgy/MetallurgyCore/1.7.10-4.0.4.24/MetallurgyCore-1.7.10-4.0.4.24.pom
+Download http://shadow.gcod.net/maven/com/teammetallurgy/Metallurgy/1.7.10-4.0.8.113/Metallurgy-1.7.10-4.0.8.113.pom
+Download http://shadow.gcod.net/maven/com/teammetallurgy/MetallurgyCore/1.7.10-4.0.4.24/MetallurgyCore-1.7.10-4.0.4.24-deobf.jar
+Download http://shadow.gcod.net/maven/com/teammetallurgy/Metallurgy/1.7.10-4.0.8.113/Metallurgy-1.7.10-4.0.8.113-deobf.jar
+Download http://files.minecraftforge.net/maven/codechicken/CodeChickenLib/1.7.10-1.1.1.99/CodeChickenLib-1.7.10-1.1.1.99-dev.jar
+:ideaProject
+:ideaWorkspace
+:idea
 
 BUILD SUCCESSFUL
 
-Total time: 5.44 secs
+Total time: 31.748 secs

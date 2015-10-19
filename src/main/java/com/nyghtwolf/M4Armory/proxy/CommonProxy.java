@@ -1,4 +1,4 @@
-package com.nyghtwolf.M4Armory.proxy;
+package com.nyghtwolf.m4armory.proxy;
 
 public class CommonProxy{
 

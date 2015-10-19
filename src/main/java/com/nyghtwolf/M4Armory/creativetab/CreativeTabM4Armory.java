@@ -1,7 +1,6 @@
-package com.nyghtwolf.M4Armory.creativetab;
+package com.nyghtwolf.m4armory.creativetab;
 
-import com.nyghtwolf.M4Armory.init.ModItems;
-import com.nyghtwolf.M4Armory.reference.Reference;
+import com.nyghtwolf.m4armory.reference.Reference;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;

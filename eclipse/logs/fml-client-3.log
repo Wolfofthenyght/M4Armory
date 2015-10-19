@@ -214,8 +214,8 @@ Details:
 [14:07:56] [Client thread/DEBUG] [FML/]: No mcmod.info file found in directory M4Armory
 [14:07:56] [Client thread/TRACE] [FML/]: Recursing into package com
 [14:07:56] [Client thread/TRACE] [FML/]: Recursing into package com.nyghtwolf
-[14:07:56] [Client thread/TRACE] [FML/]: Recursing into package com.nyghtwolf.M4Armory
-[14:07:56] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (com.nyghtwolf.M4Armory.M4Armory) - loading
+[14:07:56] [Client thread/TRACE] [FML/]: Recursing into package com.nyghtwolf.m4armory
+[14:07:56] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (com.nyghtwolf.m4armory.M4Armory) - loading
 [14:07:56] [Client thread/TRACE] [M4Armory/]: Parsed dependency info : [] [] []
 [14:07:56] [Client thread/INFO] [M4Armory/]: Mod M4Armory is missing the required element 'name'. Substituting M4Armory
 [14:07:56] [Client thread/DEBUG] [FML/]: Examining file forgeSrc-1.7.10-10.13.4.1448-1.7.10.jar for potential mods
@@ -415,7 +415,7 @@ Details:
 [14:08:00] [Client thread/TRACE] [Forge/Forge]: Sending event FMLInitializationEvent to mod Forge
 [14:08:00] [Client thread/TRACE] [Forge/Forge]: Sent event FMLInitializationEvent to mod Forge
 [14:08:00] [Client thread/TRACE] [M4Armory/M4Armory]: Sending event FMLInitializationEvent to mod M4Armory
-[14:08:00] [Client thread/INFO] [STDOUT/M4Armory]: [com.nyghtwolf.M4Armory.M4Armory:init:18]: DIRT BLOCK >> tile.dirt
+[14:08:00] [Client thread/INFO] [STDOUT/M4Armory]: [com.nyghtwolf.m4armory.M4Armory:init:18]: DIRT BLOCK >> tile.dirt
 [14:08:00] [Client thread/TRACE] [M4Armory/M4Armory]: Sent event FMLInitializationEvent to mod M4Armory
 [14:08:00] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod mcp
 [14:08:00] [Client thread/TRACE] [mcp/mcp]: Sending event IMCEvent to mod mcp

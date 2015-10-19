@@ -1,21 +1,20 @@
-package com.nyghtwolf.M4Armory.init;
+package com.nyghtwolf.m4armory.init;
 
-import com.nyghtwolf.M4Armory.item.ItemCopperSpear;
-import com.nyghtwolf.M4Armory.item.ItemM4Armory;
-import com.nyghtwolf.M4Armory.reference.Reference;
+import com.nyghtwolf.m4armory.item.ItemCopperSpear;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 
-@GameRegistry.ObjectHolder(Reference.MOD_ID)
+//@GameRegistry.ObjectHolder(Reference.MOD_ID)
 
-//Initialize Items
 public class ModItems
 {
     //Define Spears
     public static final ItemCopperSpear ItemCopperSpear = new ItemCopperSpear();
 
+    //Define Bows
+
     public static void init()
     {
-       GameRegistry.registerItem(ItemCopperSpear,"Copper Spear");
+    GameRegistry.registerItem(ItemCopperSpear,"CopperSpear");
     }
 }

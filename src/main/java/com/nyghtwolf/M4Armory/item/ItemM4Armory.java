@@ -1,7 +1,7 @@
-package com.nyghtwolf.M4Armory.item;
+package com.nyghtwolf.m4armory.item;
 
-import com.nyghtwolf.M4Armory.creativetab.CreativeTabM4Armory;
-import com.nyghtwolf.M4Armory.reference.Reference;
+import com.nyghtwolf.m4armory.creativetab.CreativeTabM4Armory;
+import com.nyghtwolf.m4armory.reference.Reference;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.Item;

@@ -1,6 +1,6 @@
 [
 {
-  "modid": "M4Armory",
+  "modid": "m4armory",
   "name": "Metallurgy 4 Armory",
   "description": "This is an addon for Shadowclaimer & Glassmakers' Metallurgy 4 that adds a variety of craftable weapons using the metallurgy metals.",
   "version": "0.0.1a",
@@ -11,6 +11,6 @@
   "credits": "The Forge and FML guys, Shadowclaimer, and Glassmaker for creating M4 and the textures used in this mod!",
   "logoFile": "",
   "screenshots": [],
-  "dependencies": []
+  "dependencies": ["Metallurgy"]
 }
 ]

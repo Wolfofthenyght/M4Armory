@@ -1,9 +1,9 @@
-package com.nyghtwolf.M4Armory;
+package com.nyghtwolf.m4armory;
 
-import com.nyghtwolf.M4Armory.creativetab.CreativeTabM4Armory;
-import com.nyghtwolf.M4Armory.init.ModRecipes;
-import com.nyghtwolf.M4Armory.reference.Reference;
-import com.nyghtwolf.M4Armory.init.ModItems;
+import com.nyghtwolf.m4armory.init.ModRecipes;
+import com.nyghtwolf.m4armory.reference.Reference;
+import com.nyghtwolf.m4armory.init.ModItems;
+import com.teammetallurgy.metallurgy.Metallurgy;
 import com.teammetallurgy.metallurgy.networking.CommonProxy;
 import com.teammetallurgy.metallurgycore.CreativeTab;
 import cpw.mods.fml.common.SidedProxy;
@@ -14,15 +14,16 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
 
-@Mod(modid= Reference.MOD_ID, name="M4Armory", version="0.0.1a")
+@Mod(modid= Reference.MOD_ID, name="m4armory", version="0.0.1a", dependencies = Metallurgy.DEPS)
+
 public class M4Armory {
 
     @Mod.Instance(Reference.MOD_ID)
     public static M4Armory instance;
 
-    public static final String modid = "M4Armory";
+    public static final String modid = "m4armory";
 
-    @SidedProxy(clientSide="com.nyghtwolf.M4Armory.proxy.ClientProxy", serverSide="com.nyghtwolf.M4Armory.proxy.CommonProxy")
+    @SidedProxy(clientSide="com.nyghtwolf.m4armory.proxy.ClientProxy", serverSide="com.nyghtwolf.m4armory.proxy.CommonProxy")
 
     public static CommonProxy Wolfproxy;
 
@@ -30,13 +31,12 @@ public class M4Armory {
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
-        //ConfigurationHandler.init(event.getSuggestedConfigurationFile());
 
         //Items Init
         ModItems.init();
 
         //Recipes Init
-        ModRecipes.init();
+        //ModRecipes.init();
     }
 
     @EventHandler

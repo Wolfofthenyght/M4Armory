@@ -1,8 +1,4 @@
-package com.nyghtwolf.M4Armory.init;
-
-import cpw.mods.fml.common.registry.GameRegistry;
-import net.minecraft.init.Items;
-import net.minecraft.item.ItemStack;
+package com.nyghtwolf.m4armory.init;
 
 public class ModRecipes {
     public static void init(){

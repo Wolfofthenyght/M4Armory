@@ -1,5 +1,6 @@
 package com.nyghtwolf.m4armory.init;
 
+import com.nyghtwolf.m4armory.item.ItemCopperBow;
 import com.nyghtwolf.m4armory.item.ItemCopperSpear;
 import cpw.mods.fml.common.registry.GameRegistry;
 
@@ -12,9 +13,11 @@ public class ModItems
     public static final ItemCopperSpear ItemCopperSpear = new ItemCopperSpear();
 
     //Define Bows
+    public static final ItemCopperBow ItemCopperBow = new ItemCopperBow();
 
     public static void init()
     {
     GameRegistry.registerItem(ItemCopperSpear,"CopperSpear");
+    GameRegistry.registerItem(ItemCopperBow, "CopperBow");
     }
 }

@@ -1,25 +1,37 @@
-[08:33:52] [main/INFO]: Setting user: Player504
-[08:33:53] [Client thread/INFO]: LWJGL Version: 2.9.1
-[08:33:58] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:m4armory, FMLFileResourcePack:Metallurgy Core, FMLFileResourcePack:Metallurgy 4
-[08:33:59] [Sound Library Loader/INFO]: Sound engine started
-[08:34:00] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
-[08:34:00] [Client thread/INFO]: Created: 512x512 textures/items-atlas
-[08:34:00] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:m4armory, FMLFileResourcePack:Metallurgy Core, FMLFileResourcePack:Metallurgy 4
-[08:34:01] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
-[08:34:01] [Client thread/INFO]: Created: 512x512 textures/items-atlas
-[08:34:02] [Sound Library Loader/INFO]: Sound engine started
-[08:34:06] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[08:34:06] [Server thread/INFO]: Generating keypair
-[08:34:06] [Server thread/INFO]: Preparing start region for level 0
-[08:34:06] [Server thread/INFO]: Changing view distance to 12, from 10
-[08:34:07] [Server thread/INFO]: Player504[local:E:638d12d0] logged in with entity id 9 at (-44.52877447402932, 56.0, -287.8910059850512)
-[08:34:07] [Server thread/INFO]: Player504 joined the game
-[08:34:10] [Server thread/INFO]: Player504 has just earned the achievement [Taking Inventory]
-[08:34:10] [Client thread/INFO]: [CHAT] Player504 has just earned the achievement [Taking Inventory]
-[08:34:57] [Client thread/INFO]: Stopping!
-[08:34:57] [Server thread/INFO]: Stopping server
-[08:34:57] [Server thread/INFO]: Saving players
-[08:34:57] [Server thread/INFO]: Saving worlds
-[08:34:57] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Overworld
-[08:34:57] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Nether
-[08:34:57] [Server thread/INFO]: Saving chunks for level 'TestWorld'/The End
+[09:19:17] [main/INFO]: Setting user: Player894
+[09:19:18] [Client thread/INFO]: LWJGL Version: 2.9.1
+[09:19:24] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Metallurgy 4 Armory, FMLFileResourcePack:Metallurgy Core, FMLFileResourcePack:Metallurgy 4
+[09:19:25] [Sound Library Loader/INFO]: Sound engine started
+[09:19:26] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
+[09:19:26] [Client thread/INFO]: Created: 512x512 textures/items-atlas
+[09:19:26] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Metallurgy 4 Armory, FMLFileResourcePack:Metallurgy Core, FMLFileResourcePack:Metallurgy 4
+[09:19:27] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
+[09:19:27] [Client thread/INFO]: Created: 512x512 textures/items-atlas
+[09:19:28] [Sound Library Loader/INFO]: Sound engine started
+[09:19:32] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[09:19:32] [Server thread/INFO]: Generating keypair
+[09:19:32] [Server thread/INFO]: Preparing start region for level 0
+[09:19:32] [Server thread/INFO]: Changing view distance to 12, from 10
+[09:19:33] [Server thread/INFO]: Player894[local:E:4a15d32d] logged in with entity id 8 at (-41.9407508364511, 56.0, -289.6734707429815)
+[09:19:33] [Server thread/INFO]: Player894 joined the game
+[09:19:36] [Server thread/INFO]: Player894 has just earned the achievement [Taking Inventory]
+[09:19:36] [Client thread/INFO]: [CHAT] Player894 has just earned the achievement [Taking Inventory]
+[09:20:01] [Client thread/INFO]: [CHAT] m4armory:CopperSpear, m4armory:CopperBow
+[09:20:02] [Client thread/INFO]: [CHAT] m4armory:CopperSpear, m4armory:CopperBow
+[09:20:03] [Server thread/INFO]: [Player894: Given [item.CopperBow.name] * 1 to Player894]
+[09:20:03] [Client thread/INFO]: [CHAT] Given [item.CopperBow.name] * 1 to Player894
+[09:20:48] [Server thread/INFO]: Saving and pausing game...
+[09:20:48] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Overworld
+[09:20:48] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Nether
+[09:20:48] [Server thread/INFO]: Saving chunks for level 'TestWorld'/The End
+[09:21:26] [Server thread/INFO]: Saving and pausing game...
+[09:21:26] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Overworld
+[09:21:26] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Nether
+[09:21:26] [Server thread/INFO]: Saving chunks for level 'TestWorld'/The End
+[09:22:24] [Client thread/INFO]: Stopping!
+[09:22:24] [Server thread/INFO]: Stopping server
+[09:22:24] [Server thread/INFO]: Saving players
+[09:22:24] [Server thread/INFO]: Saving worlds
+[09:22:24] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Overworld
+[09:22:24] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Nether
+[09:22:24] [Server thread/INFO]: Saving chunks for level 'TestWorld'/The End

@@ -1,5 +1,6 @@
 package com.nyghtwolf.m4armory.item;
 
+import com.nyghtwolf.m4armory.creativetab.CreativeTabM4Armory;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -16,13 +17,13 @@ public class ItemCopperBow extends ItemBow{
     public ItemCopperBow(){
         super();
         this.setUnlocalizedName("CopperBow");
+        this.setCreativeTab(CreativeTabM4Armory.M4Armory_Tab);
     }
 
     @Override
     @SideOnly(Side.CLIENT)
     public void registerIcons(IIconRegister par1IIconRegister){
         this.iconArray = new IIcon[bowPullIconNameArray.length];
-
         this.itemIcon = par1IIconRegister.registerIcon("m4armory:CopperBow");
         for (int i = 0; i < this.iconArray.length; ++i){
             this.iconArray[i] = par1IIconRegister.registerIcon("m4armory:" + bowPullIconNameArray[i]);

@@ -2,7 +2,6 @@ package com.nyghtwolf.m4armory.item;
 
 import com.nyghtwolf.m4armory.creativetab.CreativeTabM4Armory;
 import com.nyghtwolf.m4armory.reference.Reference;
-import com.teammetallurgy.metallurgy.api.MetallurgyApi;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.entity.EntityPlayerSP;
@@ -13,9 +12,6 @@ import net.minecraft.item.EnumAction;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.MathHelper;
 import net.minecraft.world.World;
-//import cpw.mods.fml.relauncher.Side;
-//import cpw.mods.fml.relauncher.SideOnly;
-//import net.minecraft.client.renderer.texture.IIconRegister;
 
 public class ItemCopperSpear extends WeaponBase_Copper {
 
@@ -25,18 +21,6 @@ public class ItemCopperSpear extends WeaponBase_Copper {
         this.setUnlocalizedName("CopperSpear");
         this.maxStackSize = 1;
         this.setCreativeTab(CreativeTabM4Armory.M4Armory_Tab);
-    }
-
-    @Override
-    public String getUnlocalizedName()
-    {
-        return String.format("item.%s%s", Reference.MOD_ID.toLowerCase()+ ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
-    }
-
-    @Override
-    public String getUnlocalizedName(ItemStack itemStack)
-    {
-        return String.format("item.%s%s", Reference.MOD_ID.toLowerCase()+ ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
     }
 
     //Registers the items texture

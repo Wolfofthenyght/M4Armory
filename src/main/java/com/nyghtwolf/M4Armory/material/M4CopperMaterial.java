@@ -1,5 +1,6 @@
 package com.nyghtwolf.m4armory.material;
 
+import com.teammetallurgy.metallurgy.api.MetallurgyApi;
 import net.minecraft.item.Item;
 import net.minecraftforge.common.util.EnumHelper;
 

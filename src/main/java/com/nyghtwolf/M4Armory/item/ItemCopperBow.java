@@ -1,15 +1,14 @@
 package com.nyghtwolf.m4armory.item;
 
-import com.nyghtwolf.m4armory.creativetab.CreativeTabM4Armory;
-import com.teammetallurgy.metallurgy.api.MetallurgyApi;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.item.ItemBow;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.IIcon;
 
-public class ItemCopperBow extends WeaponBase_Copper {
+public class ItemCopperBow extends ItemBow{
 
     public static final String[] bowPullIconNameArray = new String[]{"Copper_bow_pull_0", "Copper_bow_pull_1", "Copper_bow_pull_2",};
     IIcon[] iconArray;
@@ -17,10 +16,6 @@ public class ItemCopperBow extends WeaponBase_Copper {
     public ItemCopperBow(){
         super();
         this.setUnlocalizedName("CopperBow");
-        this.maxStackSize = 1;
-        MetallurgyApi.getMetalSet("base").getMetal("Copper").getToolEncantabilty();
-        MetallurgyApi.getMetalSet("base").getMetal("Copper").getToolDamage();
-        MetallurgyApi.getMetalSet("base").getMetal("Copper").getToolDurability();
     }
 
     @Override
@@ -54,7 +49,7 @@ public class ItemCopperBow extends WeaponBase_Copper {
         return this.getIcon(stack, renderPass);
     }
 
-    //@Override
+    @Override
     @SideOnly(Side.CLIENT)
     public IIcon getItemIconForUseDuration(int par1){
         return this.iconArray[par1];

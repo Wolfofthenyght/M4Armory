@@ -14,7 +14,7 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
 
-@Mod(modid= Reference.MOD_ID, name="m4armory", version="0.0.1a", dependencies = Metallurgy.DEPS)
+@Mod(modid= Reference.MOD_ID, name="m4armory", version="0.0.1a", dependencies ="after:Metallurgy")
 
 public class M4Armory {
 

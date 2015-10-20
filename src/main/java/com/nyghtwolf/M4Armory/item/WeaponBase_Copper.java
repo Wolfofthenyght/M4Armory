@@ -1,19 +1,25 @@
 package com.nyghtwolf.m4armory.item;
 
 import com.nyghtwolf.m4armory.creativetab.CreativeTabM4Armory;
+import com.nyghtwolf.m4armory.material.M4CopperMaterial;
 import com.nyghtwolf.m4armory.reference.Reference;
+import com.teammetallurgy.metallurgy.api.MetallurgyApi;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemSword;
 
 //Define Generic Item
-public class ItemM4Armory extends Item
+public class WeaponBase_Copper extends ItemSword
 {
-    public ItemM4Armory()
+    public WeaponBase_Copper()
     {
-        super();
+        super(M4CopperMaterial.M4CopperMaterial);
         this.setCreativeTab(CreativeTabM4Armory.M4Armory_Tab);
+        MetallurgyApi.getMetalSet("base").getMetal("Copper").getToolEncantabilty();
+        MetallurgyApi.getMetalSet("base").getMetal("Copper").getToolDamage();
+        MetallurgyApi.getMetalSet("base").getMetal("Copper").getToolDurability();
     }
     @Override
     public String getUnlocalizedName()

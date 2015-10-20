@@ -1,8 +1,8 @@
 package com.nyghtwolf.m4armory.item;
 
 import com.nyghtwolf.m4armory.creativetab.CreativeTabM4Armory;
-import com.nyghtwolf.m4armory.material.M4CopperMaterial;
 import com.nyghtwolf.m4armory.reference.Reference;
+import com.teammetallurgy.metallurgy.api.MetallurgyApi;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.entity.EntityPlayerSP;
@@ -11,25 +11,20 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.EnumAction;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemSword;
 import net.minecraft.util.MathHelper;
 import net.minecraft.world.World;
 //import cpw.mods.fml.relauncher.Side;
 //import cpw.mods.fml.relauncher.SideOnly;
 //import net.minecraft.client.renderer.texture.IIconRegister;
 
-public class ItemCopperSpear extends ItemSword{
+public class ItemCopperSpear extends WeaponBase_Copper {
 
     public ItemCopperSpear()
     {
-        super(M4CopperMaterial.M4CopperMaterial);
+        super();
         this.setUnlocalizedName("CopperSpear");
-        this.setCreativeTab(CreativeTabM4Armory.M4Armory_Tab);
         this.maxStackSize = 1;
-        //MetallurgyApi.getMetalSet("base").getMetal("Copper").getToolEncantabilty();
-        //MetallurgyApi.getMetalSet("base").getMetal("Copper").getToolDamage();
-        //MetallurgyApi.getMetalSet("base").getMetal("Copper").getToolDurability();
-
+        this.setCreativeTab(CreativeTabM4Armory.M4Armory_Tab);
     }
 
     @Override
@@ -131,8 +126,8 @@ public class ItemCopperSpear extends ItemSword{
             ItemStack usingItem = player.getItemInUse();
             if (usingItem != null && usingItem.getItem() == this)
             {
-                player.movementInput.moveForward *= 5.0F;
-                player.movementInput.moveStrafe *= 5.0F;
+                player.movementInput.moveForward *= 1.0F;
+                player.movementInput.moveStrafe *= 1.0F;
             }
         }
     }

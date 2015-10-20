@@ -15,7 +15,8 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.*;
-import net.minecraft.nbt.NBTTagCompound;
+import net.minecraft.block.material.Material;
+
 import net.minecraft.network.INetHandler;
 import net.minecraft.network.play.client.C07PacketPlayerDigging;
 import net.minecraft.stats.StatList;
@@ -39,8 +40,15 @@ public class ItemCopperScythe extends ItemHoe {
         //MetallurgyApi.getMetalSet("base").getMetal("Copper").getToolEncantabilty();
         //MetallurgyApi.getMetalSet("base").getMetal("Copper").getToolDamage();
         //MetallurgyApi.getMetalSet("base").getMetal("Copper").getToolDurability();
-
     }
+
+    @Override
+    protected Material[] geteffectiveMaterials()
+    {
+        return materials;
+    }
+
+    static Material[] materials = new Material[] { Material.web, Material.cactus, Material.plants, Material.leaves, Material.vine, Material.gourd };
 
     @Override
     public String getUnlocalizedName()
@@ -79,7 +87,7 @@ public class ItemCopperScythe extends ItemHoe {
         final int meta = world.getBlockMetadata(x, y, z);
         if (!stack.hasTagCompound())
             return false;
-        NBTTagCompound tags = stack.getTagCompound().getCompoundTag("InfiTool");
+       // NBTTagCompound tags = stack.getTagCompound().getCompoundTag("InfiTool");
         boolean butter = EnchantmentHelper.getEnchantmentLevel(Enchantment.silkTouch.effectId, stack) > 0;
         int fortune = EnchantmentHelper.getFortuneModifier(player);
         for (int xPos = x - 1; xPos <= x + 1; xPos++)
@@ -88,16 +96,16 @@ public class ItemCopperScythe extends ItemHoe {
             {
                 for (int zPos = z - 1; zPos <= z + 1; zPos++)
                 {
-                    if (!(tags.getBoolean("Broken")))
-                    {
-                        boolean cancelHarvest = false;
-                        for (ActiveToolMod mod : TConstructRegistry.activeModifiers)
-                        {
-                            if (mod.beforeBlockBreak(this, stack, xPos, yPos, zPos, player))
-                                cancelHarvest = true;
-                        }
+               //     if (!(tags.getBoolean("Broken")))
+            //        {
+                    //    boolean cancelHarvest = false;
+                  //      for (ActiveToolMod mod : TConstructRegistry.activeModifiers)
+                 //       {
+                  //          if (mod.beforeBlockBreak(this, stack, xPos, yPos, zPos, player))
+                   //             cancelHarvest = true;
+                   //     }
 
-                        if (!cancelHarvest)
+                 //       if (!cancelHarvest)
                         {
                             Block localBlock = world.getBlock(xPos, yPos, zPos);
                             int localMeta = world.getBlockMetadata(xPos, yPos, zPos);
@@ -174,11 +182,6 @@ public class ItemCopperScythe extends ItemHoe {
                     }
                 }
             }
-        }
-        if (!world.isRemote)
-            world.playAuxSFX(2001, x, y, z, Block.getIdFromBlock(blockB) + (meta << 12));
-        return super.onBlockStartBreak(stack, x, y, z, player);
-    }
 
     @Override
     public boolean onLeftClickEntity (ItemStack stack, EntityPlayer player, Entity entity)
@@ -191,4 +194,5 @@ public class ItemCopperScythe extends ItemHoe {
         }
         return true;
     }
+}
 }

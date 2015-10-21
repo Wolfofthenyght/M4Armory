@@ -1,5 +1,7 @@
 package com.nyghtwolf.m4armory;
 
+import com.nyghtwolf.m4armory.common.handlers.AOEHandler;
+import com.nyghtwolf.m4armory.common.util.DirectionHelper;
 import com.nyghtwolf.m4armory.init.ModRecipes;
 import com.nyghtwolf.m4armory.reference.Reference;
 import com.nyghtwolf.m4armory.init.ModItems;
@@ -12,6 +14,7 @@ import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.common.MinecraftForge;
 
 
 @Mod(modid= Reference.MOD_ID, name="m4armory", version="0.0.1a", dependencies ="after:Metallurgy")
@@ -37,6 +40,10 @@ public class M4Armory {
 
         //Recipes Init
         //ModRecipes.init();
+
+        //Handler Init
+        MinecraftForge.EVENT_BUS.register(new AOEHandler());
+        MinecraftForge.EVENT_BUS.register(new DirectionHelper());
     }
 
     @EventHandler

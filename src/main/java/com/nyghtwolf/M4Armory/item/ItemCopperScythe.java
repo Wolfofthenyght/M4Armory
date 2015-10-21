@@ -28,26 +28,25 @@ public class ItemCopperScythe extends WeaponBase_Copper {
     public boolean hitEntity(ItemStack stack, EntityLivingBase entity, EntityLivingBase player)
     {
         int xRadius = 2;
-		int yRadius = 2;
-		int zRadius = 2;
-		
-		List<EntityLivingBase> entities = player.worldObj.getEntitiesWithinAABB(EntityLivingBase.class, AxisAlignedBB.getBoundingBox(xRadius-player.posZ, yRadius-player.posY, zRadius-player.posZ, xRadius+player.posX, yRadius+player.posY, zRadius+player.posZ));
-		for(EntityLivingBase ent : entities)
-		{
-			itemStack.damageItem(1, player);
-			ent.attackEntityFrom(DamageSource.causePlayerDamage(entityPlayer), getDamage(entityPlayer));
-		}
-        return true;
+	int yRadius = 2;
+	int zRadius = 2;
+	
+	List<EntityLivingBase> entities = player.worldObj.getEntitiesWithinAABB(EntityLivingBase.class, AxisAlignedBB.getBoundingBox(xRadius-player.posZ, yRadius-player.posY, zRadius-player.posZ, xRadius+player.posX, yRadius+player.posY, zRadius+player.posZ));
+	for(EntityLivingBase ent : entities)
+	{
+		itemStack.damageItem(1, player);
+		ent.attackEntityFrom(DamageSource.causePlayerDamage(entityPlayer), getDamage(entityPlayer));
+	}
+       return true;
     }
     private float getDamage(EntityLivingBase player) 
     {
-		float fallingMult = (player.fallDistance > 0.0F && !player.onGround && !player.isOnLadder() && !player.isInWater() && !player.isPotionActive(Potion.blindness) && player.ridingEntity == null) ? 1.5F : 1.0F;
-		float potionDamage = 1.0f;
-		if(player.isPotionActive(Potion.damageBoost)) {
-			potionDamage += player.getActivePotionEffect(Potion.damageBoost).getAmplifier() * 1.3f;
-		}
-		float defaultDamage = 8;
-		return defaultDamage * fallingMult * potionDamage;
+	float fallingMult = (player.fallDistance > 0.0F && !player.onGround && !player.isOnLadder() && !player.isInWater() && !player.isPotionActive(Potion.blindness) && player.ridingEntity == null) ? 1.5F : 1.0F;
+	float potionDamage = 1.0f;
+	if(player.isPotionActive(Potion.damageBoost)) {
+	potionDamage += player.getActivePotionEffect(Potion.damageBoost).getAmplifier() * 1.3f;		}
+	float defaultDamage = 8;
+	return defaultDamage * fallingMult * potionDamage;
 	}
     //Registers the items' texture
     @Override

@@ -35,7 +35,7 @@ minecraft {
 
 dependencies {
     compile "com.teammetallurgy:MetallurgyCore:1.7.10-4.0.4.24:deobf"
-    compile "com.teammetallurgy:Metallurgy:1.7.10-4.0.8.113:deobf"
+    compile "com.teammetallurgy:Metallurgy:1.7.10-4.0.8.138:deobf"
 }
 
 processResources

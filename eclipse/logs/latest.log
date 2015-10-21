@@ -1,11 +1,38 @@
-[14:16:07] [main/INFO]: Setting user: Player576
-[14:16:08] [Client thread/INFO]: LWJGL Version: 2.9.1
-[14:16:14] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:M4Armory
-[14:16:15] [Sound Library Loader/INFO]: Sound engine started
-[14:16:15] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[14:16:15] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[14:16:15] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:M4Armory
-[14:16:15] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[14:16:15] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[14:16:16] [Sound Library Loader/INFO]: Sound engine started
-[14:17:00] [Client thread/INFO]: Stopping!
+[13:00:15] [main/INFO]: Setting user: Player820
+[13:00:16] [Client thread/INFO]: LWJGL Version: 2.9.1
+[13:00:21] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Metallurgy 4 Armory, FMLFileResourcePack:Metallurgy 4, FMLFileResourcePack:Metallurgy Core
+[13:00:22] [Sound Library Loader/INFO]: Sound engine started
+[13:00:23] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
+[13:00:23] [Client thread/INFO]: Created: 512x512 textures/items-atlas
+[13:00:24] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Metallurgy 4 Armory, FMLFileResourcePack:Metallurgy 4, FMLFileResourcePack:Metallurgy Core
+[13:00:24] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
+[13:00:25] [Client thread/INFO]: Created: 512x512 textures/items-atlas
+[13:00:25] [Sound Library Loader/INFO]: Sound engine started
+[13:00:30] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[13:00:30] [Server thread/INFO]: Generating keypair
+[13:00:30] [Server thread/INFO]: Preparing start region for level 0
+[13:00:31] [Server thread/INFO]: Changing view distance to 12, from 10
+[13:00:31] [Server thread/INFO]: Player820[local:E:136d6190] logged in with entity id 0 at (789.8234602964949, 56.0, -29.196475455982373)
+[13:00:31] [Server thread/INFO]: Player820 joined the game
+[13:00:34] [Server thread/INFO]: Player820 has just earned the achievement [Taking Inventory]
+[13:00:34] [Client thread/INFO]: [CHAT] Player820 has just earned the achievement [Taking Inventory]
+[13:00:37] [Client thread/INFO]: [CHAT] /gamemode, /gamerule
+[13:00:39] [Server thread/INFO]: [Player820: Set own game mode to Creative Mode]
+[13:00:39] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[13:02:01] [Server thread/INFO]: Saving and pausing game...
+[13:02:01] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[13:02:01] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[13:02:01] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[13:06:18] [Server thread/INFO]: [Player820: Set own game mode to Survival Mode]
+[13:06:18] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[13:07:25] [Server thread/INFO]: Saving and pausing game...
+[13:07:25] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[13:07:25] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[13:07:25] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[13:07:34] [Client thread/INFO]: Stopping!
+[13:07:34] [Server thread/INFO]: Stopping server
+[13:07:34] [Server thread/INFO]: Saving players
+[13:07:34] [Server thread/INFO]: Saving worlds
+[13:07:34] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[13:07:34] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[13:07:34] [Server thread/INFO]: Saving chunks for level 'Test'/The End

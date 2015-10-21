@@ -1,6 +1,7 @@
 package com.nyghtwolf.m4armory.item;
 
 import com.nyghtwolf.m4armory.creativetab.CreativeTabM4Armory;
+import com.teammetallurgy.metallurgy.api.MetallurgyApi;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -18,6 +19,8 @@ public class ItemCopperBow extends ItemBow{
         super();
         this.setUnlocalizedName("CopperBow");
         this.setCreativeTab(CreativeTabM4Armory.M4Armory_Tab);
+        MetallurgyApi.getMetalSet("base").getMetal("Copper").getToolEncantabilty();
+        MetallurgyApi.getMetalSet("base").getMetal("Copper").getToolDurability();
     }
 
     @Override

@@ -17,9 +17,6 @@ public class WeaponBase_Copper extends ItemSword
     {
         super(M4CopperMaterial.M4CopperMaterial);
         this.setCreativeTab(CreativeTabM4Armory.M4Armory_Tab);
-        MetallurgyApi.getMetalSet("base").getMetal("Copper").getToolEncantabilty();
-        MetallurgyApi.getMetalSet("base").getMetal("Copper").getToolDamage();
-        MetallurgyApi.getMetalSet("base").getMetal("Copper").getToolDurability();
     }
     @Override
     public String getUnlocalizedName()

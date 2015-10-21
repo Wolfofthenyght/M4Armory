@@ -1,3 +1,7 @@
+The assetDir is deprecated!  I actually just did all this generalizing stuff just now.. Use runDir instead! runDir set to eclipse/assets/..The assetDir is deprecated!  I actually just did all this generalizing stuff just now.. Use runDir instead! runDir set to eclipse/assets/..
+
+The runDir should be the location where you want MC to be run, usually he parent of the asset dirThe runDir should be the location where you want MC to be run, usually he parent of the asset dir
+
 ****************************
  Powered By MCP:             
  http://modcoderpack.com/    
@@ -6,15 +10,14 @@
  MCP Data version : unknown
 ****************************
 :ideaModule
-Download http://shadow.gcod.net/maven/com/teammetallurgy/MetallurgyCore/1.7.10-4.0.4.24/MetallurgyCore-1.7.10-4.0.4.24.pom
-Download http://shadow.gcod.net/maven/com/teammetallurgy/Metallurgy/1.7.10-4.0.8.113/Metallurgy-1.7.10-4.0.8.113.pom
-Download http://shadow.gcod.net/maven/com/teammetallurgy/MetallurgyCore/1.7.10-4.0.4.24/MetallurgyCore-1.7.10-4.0.4.24-deobf.jar
-Download http://shadow.gcod.net/maven/com/teammetallurgy/Metallurgy/1.7.10-4.0.8.113/Metallurgy-1.7.10-4.0.8.113-deobf.jar
-Download http://files.minecraftforge.net/maven/codechicken/CodeChickenLib/1.7.10-1.1.1.99/CodeChickenLib-1.7.10-1.1.1.99-dev.jar
+Download http://shadow.gcod.net/maven/com/teammetallurgy/Metallurgy/1.7.10-4.0.8.138/Metallurgy-1.7.10-4.0.8.138.pom
+Download http://shadow.gcod.net/maven/com/teammetallurgy/MetallurgyCore/1.7.10-4.0.4.25/MetallurgyCore-1.7.10-4.0.4.25.pom
+Download http://shadow.gcod.net/maven/com/teammetallurgy/Metallurgy/1.7.10-4.0.8.138/Metallurgy-1.7.10-4.0.8.138-deobf.jar
+Download http://shadow.gcod.net/maven/com/teammetallurgy/MetallurgyCore/1.7.10-4.0.4.25/MetallurgyCore-1.7.10-4.0.4.25-deobf.jar
 :ideaProject
 :ideaWorkspace
 :idea
 
 BUILD SUCCESSFUL
 
-Total time: 31.748 secs
+Total time: 23.05 secs

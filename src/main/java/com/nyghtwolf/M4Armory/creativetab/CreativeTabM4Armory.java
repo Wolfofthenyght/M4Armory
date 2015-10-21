@@ -1,5 +1,6 @@
 package com.nyghtwolf.m4armory.creativetab;
 
+import com.nyghtwolf.m4armory.init.ModItems;
 import com.nyghtwolf.m4armory.reference.Reference;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
@@ -12,7 +13,7 @@ public class CreativeTabM4Armory
         @Override
         public Item getTabIconItem()
         {
-          return Items.gold_ingot;
+          return ModItems.ItemCopperScythe;
         }
 
         @Override

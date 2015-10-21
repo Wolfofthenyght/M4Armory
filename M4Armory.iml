@@ -13,16 +13,7 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.teammetallurgy/MetallurgyCore/1.7.10-4.0.4.24/602482348c06396ce513e7a8e85ced24170a8792/MetallurgyCore-1.7.10-4.0.4.24-deobf.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.teammetallurgy/Metallurgy/1.7.10-4.0.8.113/a9f8de69c6ac19f43ee8e4cf50f7366f5f91ef72/Metallurgy-1.7.10-4.0.8.113-deobf.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.teammetallurgy/Metallurgy/1.7.10-4.0.8.138/2b957d790d7f2e520fb8529a05edc383f1fedcdb/Metallurgy-1.7.10-4.0.8.138-deobf.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -649,6 +640,15 @@
       <library>
         <CLASSES>
           <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-external-platform/4.5/c3cde57891b935d41b6680a9c5e1502eeab76d86/twitch-external-platform-4.5-natives-windows-64.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.teammetallurgy/MetallurgyCore/1.7.10-4.0.4.25/6f471ee60f3664de479ffdec3c14a3d83986f80e/MetallurgyCore-1.7.10-4.0.4.25-deobf.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

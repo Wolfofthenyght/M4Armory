@@ -1,37 +1,42 @@
-[09:51:55] [main/INFO]: Setting user: Player503
-[09:51:55] [Client thread/INFO]: LWJGL Version: 2.9.1
-[09:52:01] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Metallurgy 4 Armory, FMLFileResourcePack:Metallurgy Core, FMLFileResourcePack:Metallurgy 4
-[09:52:02] [Sound Library Loader/INFO]: Sound engine started
-[09:52:04] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
-[09:52:04] [Client thread/INFO]: Created: 512x512 textures/items-atlas
-[09:52:04] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Metallurgy 4 Armory, FMLFileResourcePack:Metallurgy Core, FMLFileResourcePack:Metallurgy 4
-[09:52:05] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
-[09:52:05] [Client thread/INFO]: Created: 512x512 textures/items-atlas
-[09:52:06] [Sound Library Loader/INFO]: Sound engine started
-[09:52:11] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[09:52:11] [Server thread/INFO]: Generating keypair
-[09:52:11] [Server thread/INFO]: Preparing start region for level 0
-[09:52:12] [Server thread/INFO]: Changing view distance to 12, from 10
-[09:52:12] [Server thread/INFO]: Player503[local:E:04e42c29] logged in with entity id 92 at (-41.29215145849588, 56.0, -284.5581681230463)
-[09:52:12] [Server thread/INFO]: Player503 joined the game
-[09:52:15] [Server thread/INFO]: Player503 has just earned the achievement [Taking Inventory]
-[09:52:15] [Client thread/INFO]: [CHAT] Player503 has just earned the achievement [Taking Inventory]
-[09:53:32] [Server thread/INFO]: Saving and pausing game...
-[09:53:32] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Overworld
-[09:53:32] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Nether
-[09:53:32] [Server thread/INFO]: Saving chunks for level 'TestWorld'/The End
-[09:54:29] [Server thread/INFO]: Saving and pausing game...
-[09:54:29] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Overworld
-[09:54:29] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Nether
-[09:54:29] [Server thread/INFO]: Saving chunks for level 'TestWorld'/The End
-[10:00:22] [Server thread/INFO]: Saving and pausing game...
-[10:00:22] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Overworld
-[10:00:22] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Nether
-[10:00:22] [Server thread/INFO]: Saving chunks for level 'TestWorld'/The End
-[10:00:24] [Client thread/INFO]: Stopping!
-[10:00:24] [Server thread/INFO]: Stopping server
-[10:00:24] [Server thread/INFO]: Saving players
-[10:00:24] [Server thread/INFO]: Saving worlds
-[10:00:24] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Overworld
-[10:00:24] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Nether
-[10:00:24] [Server thread/INFO]: Saving chunks for level 'TestWorld'/The End
+[12:41:31] [main/INFO]: Setting user: Player504
+[12:41:32] [Client thread/INFO]: LWJGL Version: 2.9.1
+[12:41:39] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Metallurgy 4 Armory, FMLFileResourcePack:Metallurgy Core, FMLFileResourcePack:Metallurgy 4
+[12:41:41] [Sound Library Loader/INFO]: Sound engine started
+[12:41:42] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
+[12:41:42] [Client thread/INFO]: Created: 512x512 textures/items-atlas
+[12:41:43] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Metallurgy 4 Armory, FMLFileResourcePack:Metallurgy Core, FMLFileResourcePack:Metallurgy 4
+[12:41:43] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
+[12:41:44] [Client thread/INFO]: Created: 512x512 textures/items-atlas
+[12:41:44] [Sound Library Loader/INFO]: Sound engine started
+[12:41:49] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[12:41:49] [Server thread/INFO]: Generating keypair
+[12:41:50] [Server thread/INFO]: Preparing start region for level 0
+[12:41:50] [Server thread/INFO]: Changing view distance to 12, from 10
+[12:41:50] [Server thread/INFO]: Player504[local:E:85a37d1b] logged in with entity id 95 at (-37.93616210786379, 56.0, -293.4184184363006)
+[12:41:50] [Server thread/INFO]: Player504 joined the game
+[12:41:51] [Server thread/INFO]: Saving and pausing game...
+[12:41:51] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Overworld
+[12:41:51] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Nether
+[12:41:51] [Server thread/INFO]: Saving chunks for level 'TestWorld'/The End
+[12:42:28] [Client thread/INFO]: [CHAT] doDaylightCycle, doFireTick, doMobLoot, doMobSpawning, doTileDrops
+[12:42:28] [Client thread/INFO]: [CHAT] doDaylightCycle, doFireTick, doMobLoot, doMobSpawning, doTileDrops
+[12:42:29] [Client thread/INFO]: [CHAT] doDaylightCycle, doFireTick, doMobLoot, doMobSpawning, doTileDrops
+[12:42:32] [Client thread/INFO]: [CHAT] doMobLoot, doMobSpawning
+[12:42:32] [Client thread/INFO]: [CHAT] doMobLoot, doMobSpawning
+[12:42:34] [Server thread/INFO]: [Player504: Game rule has been updated]
+[12:42:34] [Client thread/INFO]: [CHAT] Game rule has been updated
+[12:42:42] [Server thread/INFO]: Player504 fell out of the world
+[12:42:42] [Client thread/INFO]: [CHAT] Player504 fell out of the world
+[12:42:42] [Client thread/INFO]: [CHAT] Ouch! That looked like it hurt
+[12:43:37] [Client thread/INFO]: [CHAT] /gamemode, /gamerule
+[12:43:39] [Server thread/INFO]: [Player504: Set own game mode to Survival Mode]
+[12:43:39] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[12:44:14] [Server thread/INFO]: [Player504: Set own game mode to Creative Mode]
+[12:44:14] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[12:44:38] [Client thread/INFO]: Stopping!
+[12:44:38] [Server thread/INFO]: Stopping server
+[12:44:38] [Server thread/INFO]: Saving players
+[12:44:38] [Server thread/INFO]: Saving worlds
+[12:44:38] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Overworld
+[12:44:38] [Server thread/INFO]: Saving chunks for level 'TestWorld'/Nether
+[12:44:38] [Server thread/INFO]: Saving chunks for level 'TestWorld'/The End
